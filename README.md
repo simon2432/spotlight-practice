@@ -1,24 +1,24 @@
-# 🌟 SpotLight App
+# SpotLight App
 
-Una aplicación de redes sociales moderna construida con React Native, Expo, Clerk para autenticación y Convex como backend. SpotLight te permite compartir momentos, seguir a otros usuarios, y interactuar con contenido a través de likes, comentarios y más.
+Una aplicación de redes sociales construida con React Native, Expo, Clerk para autenticación y Convex como backend. SpotLight te permite compartir momentos, seguir a otros usuarios e interactuar con contenido a través de likes, comentarios y más.
 
-> **Nota**: Este proyecto es el seguimiento de un tutorial de desarrollo de aplicaciones móviles, pero incluye funcionalidades adicionales y mejoras implementadas durante el proceso de aprendizaje.
+> **Nota**: Este proyecto surgió como seguimiento de un tutorial de desarrollo de aplicaciones móviles, pero incluye funcionalidades adicionales y mejoras que fui agregando durante el proceso de aprendizaje.
 
-## ✨ Características
+## Características
 
-- 📱 **Aplicación móvil nativa** construida con React Native y Expo
-- 🔐 **Autenticación segura** con Clerk
-- ☁️ **Backend en tiempo real** con Convex
-- 📸 **Subida de imágenes** y gestión de contenido
-- 💬 **Sistema de comentarios** en tiempo real
-- ❤️ **Sistema de likes** y interacciones
-- 👥 **Sistema de seguimiento** de usuarios
-- 🔖 **Marcadores** para guardar posts favoritos
-- 🔔 **Notificaciones** en tiempo real
-- 📱 **Navegación por pestañas** intuitiva
-- 🎨 **Diseño moderno** con tema oscuro
+- **Aplicación móvil nativa** construida con React Native y Expo
+- **Autenticación segura** con Clerk
+- **Backend en tiempo real** con Convex
+- **Subida de imágenes** y gestión de contenido
+- **Sistema de comentarios** en tiempo real
+- **Sistema de likes** y interacciones
+- **Sistema de seguimiento** de usuarios
+- **Marcadores** para guardar posts favoritos
+- **Notificaciones** en tiempo real
+- **Navegación por pestañas** intuitiva
+- **Diseño moderno** con tema oscuro
 
-## 🛠️ Tecnologías Utilizadas
+## Tecnologías Utilizadas
 
 ### Frontend
 
@@ -28,7 +28,7 @@ Una aplicación de redes sociales moderna construida con React Native, Expo, Cle
 - **React Navigation** - Navegación entre pantallas
 - **TypeScript** - Tipado estático
 
-### Backend & Servicios
+### Backend y Servicios
 
 - **Convex** - Backend en tiempo real y base de datos
 - **Clerk** - Autenticación y gestión de usuarios
@@ -42,7 +42,7 @@ Una aplicación de redes sociales moderna construida con React Native, Expo, Cle
 - **Expo Haptics** - Retroalimentación táctil
 - **JetBrains Mono** - Fuente personalizada
 
-## 📋 Prerrequisitos
+## Prerrequisitos
 
 Antes de comenzar, asegúrate de tener instalado:
 
@@ -51,12 +51,12 @@ Antes de comenzar, asegúrate de tener instalado:
 - **Expo CLI** (`npm install -g @expo/cli`)
 - **Git**
 
-### Para desarrollo móvil:
+Para desarrollo móvil:
 
-- **Expo Go** app en tu dispositivo móvil
+- **Expo Go** en tu dispositivo móvil
 - O **Android Studio** / **Xcode** para emuladores
 
-## 🚀 Instalación y Configuración
+## Instalación y Configuración
 
 ### 1. Clonar el repositorio
 
@@ -128,7 +128,7 @@ yarn start
 - **En emulador**: Presiona `a` para Android o `i` para iOS
 - **En web**: Presiona `w` para abrir en navegador
 
-## 📱 Estructura del Proyecto
+## Estructura del Proyecto
 
 ```
 SpotLight-App/
@@ -144,7 +144,7 @@ SpotLight-App/
 └── assets/              # Imágenes y fuentes
 ```
 
-## 🎯 Funcionalidades Principales
+## Funcionalidades Principales
 
 ### Autenticación
 
@@ -179,7 +179,7 @@ SpotLight-App/
 - Diferentes tipos: likes, comentarios, follows
 - Gestión de notificaciones
 
-## 🔧 Scripts Disponibles
+## Scripts Disponibles
 
 ```bash
 # Iniciar servidor de desarrollo
@@ -201,9 +201,9 @@ npm test
 npm run lint
 ```
 
-## 📊 Base de Datos
+## Base de Datos
 
-El proyecto utiliza Convex con las siguientes tablas principales:
+El proyecto usa Convex con las siguientes tablas principales:
 
 - **users**: Información de usuarios
 - **posts**: Publicaciones de usuarios
@@ -213,28 +213,28 @@ El proyecto utiliza Convex con las siguientes tablas principales:
 - **notifications**: Notificaciones del sistema
 - **bookmarks**: Posts guardados por usuarios
 
-## 🎨 Temas y Estilos
+## Temas y Estilos
 
-La aplicación utiliza un tema oscuro consistente con:
+La aplicación usa un tema oscuro consistente con:
 
 - **Colores primarios**: Azul y blanco
 - **Fondo**: Negro
 - **Tipografía**: JetBrains Mono
 - **Componentes**: Diseño moderno y minimalista
 
-## 🤝 Contribuir
+## Contribuir
 
-1. Fork el proyecto
+1. Haz un fork del proyecto
 2. Crea una rama para tu feature (`git checkout -b feature/AmazingFeature`)
-3. Commit tus cambios (`git commit -m 'Add some AmazingFeature'`)
-4. Push a la rama (`git push origin feature/AmazingFeature`)
+3. Haz commit de tus cambios (`git commit -m 'Add some AmazingFeature'`)
+4. Haz push a la rama (`git push origin feature/AmazingFeature`)
 5. Abre un Pull Request
 
-## 📝 Licencia
+## Licencia
 
 Este proyecto está bajo la Licencia MIT. Ver el archivo `LICENSE` para más detalles.
 
-## 🆘 Soporte
+## Soporte
 
 Si encuentras algún problema o tienes preguntas:
 
@@ -242,7 +242,7 @@ Si encuentras algún problema o tienes preguntas:
 2. Crea un nuevo Issue con detalles del problema
 3. Contacta al equipo de desarrollo
 
-## 🙏 Agradecimientos
+## Agradecimientos
 
 - [Expo](https://expo.dev/) por la plataforma de desarrollo
 - [Clerk](https://clerk.com/) por la autenticación
@@ -251,4 +251,4 @@ Si encuentras algún problema o tienes preguntas:
 
 ---
 
-⭐ **¡No olvides darle una estrella al repositorio si te gustó el proyecto!**
+Si te gustó el proyecto, no dudes en dejarle una estrella al repositorio.
